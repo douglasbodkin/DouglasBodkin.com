@@ -1,0 +1,77 @@
+body {
+	background-color: #FFF;
+	color: #333;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 90%;
+}
+
+img {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 90%;
+}
+
+img.portrait {
+	max-width: 800px;
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 0px) {
+    body{
+        font-size: 12px;
+    }
+
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clear-fix:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.pointer-cursor {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+.photo-info-bar {
+	font-size: 1em;
+	margin: 10px auto 30px auto;
+	max-width: 1200px;
+	width: 90%;
+}
+
+.photo-info-bar.portrait {
+	max-width: 800px;
+}
+
+.footer {
+	font-size: 12px;
+	margin: 15px 0;
+	text-align: center;
+	width: 100%;
+}

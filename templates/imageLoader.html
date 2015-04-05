@@ -1,0 +1,9 @@
+{{#each photoData : index}}
+<div>
+	<img src="images/{{src}}" alt="{{name}} | {{location}} | {{date}}"{{#if portrait}} class="portrait"{{/if}}>
+	<div class="photo-info-bar clear-fix {{#if portrait}} portrait{{/if}}">
+		<div class="float-left">{{name}} | {{location}} | {{date}}</div>
+		<div class="float-right">{{cameraModel}}</div>
+	</div>
+</div>
+{{/each}}
